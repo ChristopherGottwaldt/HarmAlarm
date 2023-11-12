@@ -48,11 +48,15 @@ class AlarmClock extends React.Component {
       } else {
         this.alarmMessage = "Your alarm is set for " + this.state.alarmTime + ".";
         if(this.state.currentTime === this.state.alarmTime) {
-          alert("its time!");
+          alert("TIME TO GET HARMED! 😉");
         } else {
           console.log("not yet");
         }
       }   
+    }
+
+    congratulations(){
+        alert("You're welcome for being woken up!")
     }
   
     render() {
