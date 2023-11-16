@@ -34,8 +34,6 @@ byte colPins[COLS] = { 5, 4, 3, 2 }; // Connect keypad COL0, COL1 and COL2 to th
 
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
-//int a;
-//int b;
 
 void setup(){
   Serial.begin(9600);

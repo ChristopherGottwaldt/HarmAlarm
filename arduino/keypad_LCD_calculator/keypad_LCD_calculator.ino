@@ -86,7 +86,6 @@ void  DetectButtons()
     Number = (Number*10)  + 7; //Pressed twice
     } 
   
-
     if (key == '0')
     {Serial.println  ("Button 0"); //Button 0 is Pressed
     if (Number==0)
