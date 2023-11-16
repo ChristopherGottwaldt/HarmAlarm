@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Alarm",
+    "slug": "Alarm",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Alarm"
+}
